@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked In Signin page</title>
+    <link rel="icon" href="icon2.png?v=2">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+<a href="https://www.linkedin.com/feed/"><img src="images.jpg" alt="linked in" class="img"></a>
+    <a href="login.html" class="loginpage">Login</a>
+    <a href="https://www.linkedin.com/feed/">
+    <button class="join" >join Now</button></a>
+    </header>
+    <div class="container">
+        <div class="signin">
+            <h2 style="font-family: Arial, Helvetica, sans-serif;">Sign in</h2>
+            <!-- <label for="sign" class="lable"> <h1>Sign in</h1></label><br> -->
+            <p class="text">Stay updated on your account !</p>
+            <input class="email" type="email" placeholder="    E-mail or Phone No. "><br><br>
+            <input class="pass" type="password" name="" id="" placeholder="    Password"><br><br>
+            <button class="sig">signin</button>
+            <input type="checkbox"><label class="checkbox">Remember me</label>
+    
+            <div class="line">
+                <span>or</span>
+            </div>
+            <div id="g_id_onload"
+                data-client_id="636416064116-8nbq4hptg47qtaoia6nhjm7a0kjqe99q.apps.googleusercontent.com"
+                data-callback="handleCredentialResponse"></div>
+            <div class="g_id_signin" data-shape="pill" data-size="medium" data-type="standard" data-theme="outline">
+            </div>
+            <script>
+                function handleCredentialResponse(response) {
+                    console.log("User token:", response.credential);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <style>
+
+
+
+    </style>
+    <footer class="foot">
+        <div class="fot">
+            <img src="linkedin-black9283.jpg" alt="Linked in" class="imgg"><span class="as">©2026</span>
+            <a
+                href="https://about.linkedin.com/?trk=homepage-jobseeker_footer-about&_gl=1*e589o9*_gcl_au*NDA4ODQ5MzUuMTc3MjM1ODIxOQ..">About</a>
+            <a
+                href="https://www.linkedin.com/accessibility?trk=homepage-jobseeker_footer-accessibility">Accessibility</a>
+            <a href="https://www.linkedin.com/legal/user-agreement?trk=homepage-basic_footer-user-agreement"
+                class="ua">Uer Agreement</a>
+            <a href="https://www.linkedin.com/legal/privacy-policy?trk=homepage-basic_footer-privacy-policy" class="up">
+                Privacy Policy</a>
+            <a href="https://www.linkedin.com/legal/professional-community-policies?trk=homepage-basic_footer-community-guide"
+                class="cg"> Community Guidelines</a>
+            <a href="https://www.linkedin.com/legal/cookie-policy?trk=homepage-basic_footer-cookie-policy"
+                class="uc">Uer Cookie Policy</a>
+            <a href="https://www.linkedin.com/legal/copyright-policy?trk=homepage-basic_footer-copyright-policy"
+                class="cp">Copyright Policy</a>
+            <a href="https://www.linkedin.com/mypreferences/g/guest-controls" style="">Guest Controls</a>
+        </div>
+    </footer>
+</body>
+
+</html>>
